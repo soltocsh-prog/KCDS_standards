@@ -1,0 +1,94 @@
+===============================================================================
+KCS AUTOMATION MIGRATION & EXTRACTION AUDIT LOG
+===============================================================================
+Timestamp Header    : 2026-08-11 16:19:58 KST
+Target Workspace    : c:\Users\solto\OneDrive\문서\KCS_Automation
+Source Workspace    : c:\Users\solto\OneDrive\문서\Soltovity
+Remote Repository   : https://github.com/soltocsh-prog/-.git
+Target Branch       : main
+Total Tracked Files : 46
+Total Size (Bytes)  : 9,982,118 bytes (~9.52 MB)
+===============================================================================
+
+-------------------------------------------------------------------------------
+CATEGORY SUMMARY
+-------------------------------------------------------------------------------
+1. Root Core Executables & Configuration      :  4 files,      7,035 bytes
+2. Root Documentation                         :  3 files,     20,004 bytes
+3. Database Layer                             :  4 files,  8,806,657 bytes
+4. Documentation & Reference Samples          :  3 files,    791,671 bytes
+5. Services & Business Logic                  : 11 files,    140,298 bytes
+6. Templates Layer                            :  5 files,    154,945 bytes
+7. Test Suite & BDD Features                  : 13 files,     55,212 bytes
+8. Repository Metadata & Outputs              :  3 files,      6,296 bytes
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+DETAILED FILE INVENTORY (Relative Path | Size in Bytes | Category)
+-------------------------------------------------------------------------------
+
+[1. Root Core Executables & Configuration]
+  - generate_cli.py                                                   2,596 bytes
+  - main.py                                                           3,575 bytes
+  - requirements.txt                                                     94 bytes
+  - run_services.bat                                                    770 bytes
+
+[2. Root Documentation]
+  - CONTEXT.md                                                        6,193 bytes
+  - README.md                                                         9,828 bytes
+  - migration_guide.md                                                3,983 bytes
+
+[3. Database Layer]
+  - db/database.py                                                    4,353 bytes
+  - db/kcs.db                                                             0 bytes
+  - db/kcs_documents.db                                           8,802,304 bytes
+  - db/kcsc.db                                                            0 bytes
+
+[4. Documentation & Reference Samples]
+  - docs/REQUIREMENTS.md                                              2,800 bytes
+  - docs/samples/kcs_142010_api_response.json                       437,872 bytes
+  - docs/samples/kcs_14_20_10.json                                  350,999 bytes
+
+[5. Services & Business Logic]
+  - services/__init__.py                                                 18 bytes
+  - services/ai_recommender.py                                          577 bytes
+  - services/document_generator.py                                    1,024 bytes
+  - services/document_orchestrator.py                                 6,458 bytes
+  - services/hml_bridge.py                                            7,364 bytes
+  - services/hml_generator.py                                        46,113 bytes
+  - services/hml_generator_recovered.py                              41,034 bytes
+  - services/jinja2_generator/__init__.py                                 7 bytes
+  - services/jinja2_generator/jinja2_hml_generator.py                 6,497 bytes
+  - services/jinja2_generator/templates/base_template.hml.j2         25,150 bytes
+  - services/kcsc_api_client.py                                       6,056 bytes
+
+[6. Templates Layer]
+  - templates/#old/base_template.hml                                 49,910 bytes
+  - templates/#old/table_snippet.xml.j2                               1,310 bytes
+  - templates/base_template.hml                                      50,441 bytes
+  - templates/base_template2.hml                                     51,974 bytes
+  - templates/table_snippet.xml.j2                                    1,310 bytes
+
+[7. Test Suite & BDD Features]
+  - tests/conftest.py                                                   969 bytes
+  - tests/features/ai_recommendation.feature                            612 bytes
+  - tests/features/document_generation.feature                          693 bytes
+  - tests/features/kcsc_api.feature                                     567 bytes
+  - tests/test_ai_recommendation.py                                   1,445 bytes
+  - tests/test_api_endpoints.py                                       2,642 bytes
+  - tests/test_database.py                                            2,457 bytes
+  - tests/test_document_generation.py                                 1,750 bytes
+  - tests/test_hml_bridge.py                                          6,943 bytes
+  - tests/test_hml_generator.py                                      28,401 bytes
+  - tests/test_hml_table_image_deep_dive.py                           4,947 bytes
+  - tests/test_jinja2_hml_generator.py                                1,938 bytes
+  - tests/test_kcsc_api.py                                            1,848 bytes
+
+[8. Repository Metadata & Outputs]
+  - .gitignore                                                          353 bytes
+  - migration_log.txt                                                 5,919 bytes
+  - output/.gitkeep                                                      24 bytes
+
+===============================================================================
+END OF MIGRATION LOG
+===============================================================================

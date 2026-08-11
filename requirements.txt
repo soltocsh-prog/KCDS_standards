@@ -1,0 +1,9 @@
+fastapi
+pytest
+pytest-bdd
+pytest-watch
+beautifulsoup4
+lxml
+google-generativeai
+uvicorn
+Pillow

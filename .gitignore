@@ -1,0 +1,29 @@
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environments & Local Configs
+venv/
+.venv/
+env/
+.env
+
+# Generated Output files (keep folder structure via .gitkeep)
+output/*
+!output/.gitkeep
+
+# Temporary / Debug scripts
+scratch_*.py
+check_*.py
+
+# Agent metadata
+.agents/
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
